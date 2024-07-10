@@ -1,4 +1,8 @@
+
 /* header section start here */
+body{
+   font-family:"Azeret Mono", monospace;
+}
 
 .section-container{
     
@@ -31,6 +35,10 @@
    /* border: 2px solid red; */
    
  }
+ #why{
+   text-align: center;
+   
+ }
  
   .child{
    display: flex;
@@ -55,7 +63,7 @@
    height: 100%;
    width: 100%;
    margin: 0 auto;
-   border: 2px solid red;
+   
   }
   #mar{
    margin:80px 144px 0px;
@@ -75,7 +83,7 @@
    height: 100%;
    width: 100%;
    margin: 0 auto;
-   border: 2px solid red;
+   /* border: 2px solid red; */
 }
 .ct-content{
    margin:80px 144px 0px;
@@ -83,10 +91,40 @@
 .ct-content2{
    display: flex;
    gap: 24px;
+   text-wrap: wrap;
 }
 #cen{
    text-align: center;
 }
 .pad{
    padding: 40px;
+}
+.b-image{
+   /* border: 2px solid red; */
+   height: 100%;
+   width: 100%;
+   margin: 0 auto;
+}
+.b-image-content{
+   margin:80px 144px 0px;
+   text-align: center;
+   background-image: url(../B10A1-Challenge-Begins/assets/handshake.jpg);
+   background-repeat: no-repeat;
+   background-size:cover;
+   background-position: center;
+   padding: 64px 48px;
+   background-blend-mode: overlay;
+   background-color: rgba(0, 0,0, 0.5);
+}
+.flex{
+   display: flex;
+   justify-content: space-between;
+   padding: 32px 150px;
+}
+ul{
+   display: flex;
+   justify-content:space-evenly;
+   list-style: none;
+   margin-right: 10px;
+   
 }
