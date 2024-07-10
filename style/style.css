@@ -51,3 +51,22 @@
   }
   
   /* why web development section style */
+  .Inspiration{
+   height: 100%;
+   width: 100%;
+   margin: 0 auto;
+   /* border: 2px solid red; */
+  }
+  #mar{
+   margin:80px 144px 0px;
+   text-align: center;
+}
+/* /* .content{
+   text-align: center; */
+ 
+#ins{
+   border-radius: 16px;
+   height: 550px;
+   width: 100%;
+   margin-top: 80px;
+}
